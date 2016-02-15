@@ -6,7 +6,6 @@ projects:
   composer_manager: { branch: 1.x-dev, revision: b5da8d1 }
   clutch:
     type: module
-    subdir: custom
       download:
         type: git
         url: https://github.com/poetic/clutch.git
