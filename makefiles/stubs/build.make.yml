@@ -10,7 +10,7 @@ projects:
     subdir: ~
     download:
       url: https://github.com/poetic/houston.git
-      branch: development
+      branch: master
   clutch:
     type: module
     subdir: modules
