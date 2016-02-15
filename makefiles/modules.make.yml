@@ -4,6 +4,12 @@ core: 8.x
 projects:
   admin_toolbar: { version: ~ }
   composer_manager: { branch: 1.x-dev, revision: b5da8d1 }
+  clutch:
+    type: module
+      download:
+        type: git
+        url: https://github.com/poetic/clutch.git
+        branch: development
   ctools: { version: 3.x-dev }
   devel:
     download: { branch: 1.x-dev, revision: c0b5c5f }
