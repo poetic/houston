@@ -1,0 +1,49 @@
+name: Houston
+type: profile
+description: 'An opinionated install profile focused on developer happiness.'
+core: 8.x
+
+dependencies:
+  - admin_toolbar
+  - admin_toolbar_tools
+  - block
+  - block_content
+  - breakpoint
+  - ckeditor
+  - color
+  - composer_manager
+  - config
+  - contextual
+  - datetime
+  - dblog
+  - editor
+  - entity_reference
+  - field_ui
+  - file
+  - help
+  - history
+  - image
+  - menu_link_content
+  - menu_ui
+  - metatag
+  - node
+  - options
+  - page_cache
+  - path
+  - pathauto
+  - quickedit
+  - responsive_image
+  - rdf
+  - search
+  - shortcut
+  - taxonomy
+  - telephone
+  - toolbar
+  - tour
+  - views
+  - views_ui
+  - clutch
+  #- webform # disabled until it gets more stable and doesn't cause the test suite to fail
+themes:
+  - classy
+  - seven

@@ -1,0 +1,14 @@
+api: 2
+core: 8.x
+
+projects:
+  admin_toolbar: { version: ~ }
+  composer_manager: { branch: 1.x-dev, revision: b5da8d1 }
+  ctools: { version: 3.x-dev }
+  devel:
+    download: { branch: 1.x-dev, revision: c0b5c5f }
+  entity_reference_revisions: { version: ~ }
+  metatag: { version: ~ }
+  pathauto: { version: ~ }
+  paragraphs: { version: ~ }
+  token: { version: ~ }
