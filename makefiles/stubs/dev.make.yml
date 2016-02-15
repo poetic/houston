@@ -14,7 +14,7 @@ projects:
       working-copy: true
   clutch:
     type: module
-    subdir: modules
+    subdir: custom
     download:
       url: https://github.com/poetic/clutch.git
       branch: development
