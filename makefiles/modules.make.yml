@@ -10,6 +10,7 @@ projects:
         type: git
         url: https://github.com/poetic/clutch.git
         branch: development
+        subdir: custom
   ctools: { version: 3.x-dev }
   devel:
     download: { branch: 1.x-dev, revision: c0b5c5f }

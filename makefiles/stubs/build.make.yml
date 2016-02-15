@@ -11,9 +11,3 @@ projects:
     download:
       url: https://github.com/poetic/houston.git
       branch: master
-  clutch:
-    type: module
-    subdir: modules
-    download:
-      url: https://github.com/poetic/clutch.git
-      branch: development
