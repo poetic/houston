@@ -10,4 +10,4 @@ projects:
     subdir: ~
     download:
       url: https://github.com/poetic/houston.git
-      branch: 8.x
+      branch: master

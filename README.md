@@ -17,11 +17,11 @@ This will rebuild Drupal core and contrib in an existing code-base without
 touching the houston profile itself. This is useful when working on houston.
 
 To make sure you can use Composer Manager to download third party libraries, run this from your platform root:
-		
-		php profiles/houston/modules/contrib/composer_manager/scripts/init.php
+
+    php profiles/houston/modules/contrib/composer_manager/scripts/init.php
 
 then run this to install all libraries:
 
-		composer drupal-update
+    composer drupal-update
 
 If you have trouble with houston/vendor/jcalderonzumba/gastonjs, remove gastonjs then re-run `composer drupal-update`
