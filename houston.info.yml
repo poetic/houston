@@ -42,6 +42,7 @@ dependencies:
   - tour
   - views
   - views_ui
+  - clutch
   #- webform # disabled until it gets more stable and doesn't cause the test suite to fail
 themes:
   - classy
