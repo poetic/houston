@@ -11,7 +11,7 @@ projects[composer_manager][subdir] = "contrib"
 projects[composer_manager][branch] = "1.x-dev"
 projects[composer_manager][revision] = "b5da8d1"
 
-projects[clutch][subdir] = "contrib"
+projects[clutch][subdir] = "custom"
 projects[clutch][download][type] = "git"
 projects[clutch][download][url] = "https://github.com/poetic/clutch.git"
 projects[clutch][download][branch] = "development"
