@@ -25,3 +25,17 @@ then run this to install all libraries:
     composer drupal-update
 
 If you have trouble with houston/vendor/jcalderonzumba/gastonjs, remove gastonjs then re-run `composer drupal-update`
+
+## Maintenance
+The makefiles that define the various requirements for this installation
+profile are structured for easy readability and maintenance.
+
+For dev builds, Drush Make will prefer the latest versions of contrib modules,
+except for those specifying pinned versions.
+
+For production builds, we use a makefile with all versions locked down. To
+update this makefile, run the following command from the *platform root:
+
+    drush make --no-build --no-core profiles/houston/makefiles/profile.make.yml --lock=houston.make
+
+
