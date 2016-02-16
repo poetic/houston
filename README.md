@@ -34,8 +34,8 @@ For dev builds, Drush Make will prefer the latest versions of contrib modules,
 except for those specifying pinned versions.
 
 For production builds, we use a makefile with all versions locked down. To
-update this makefile, run the following command from the *platform root:
+update this makefile, run the following command from the profile root:
 
-    drush make --no-build --no-core profiles/houston/makefiles/profile.make.yml --lock=houston.make
+    drush make --no-build --no-core makefiles/profile.make.yml --lock=houston.make
 
 
