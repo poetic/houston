@@ -9,6 +9,6 @@ projects:
     type: profile
     subdir: ~
     download:
-      url: https://github.com/poetic/houston.git
+      url: git@github.com:poetic/houston.git
       branch: master
       working-copy: true
