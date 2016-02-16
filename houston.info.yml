@@ -14,6 +14,7 @@ dependencies:
   - composer_manager
   - config
   - contextual
+  - ctools
   - datetime
   - dblog
   - editor
@@ -38,6 +39,7 @@ dependencies:
   - shortcut
   - taxonomy
   - telephone
+  - token
   - toolbar
   - tour
   - views

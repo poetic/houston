@@ -10,4 +10,4 @@ projects:
     subdir: ~
     download:
       url: git@github.com:poetic/houston.git
-      branch: master
+      branch: development
