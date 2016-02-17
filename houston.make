@@ -13,7 +13,7 @@ projects[composer_manager][revision] = "b5da8d1"
 
 projects[clutch][subdir] = "custom"
 projects[clutch][download][type] = "git"
-projects[clutch][download][url] = "git@github.com:poetic/clutch.git"
+projects[clutch][download][url] = "https://github.com/poetic/clutch.git"
 projects[clutch][download][branch] = "development"
 projects[clutch][download][working-copy] = "1"
 
