@@ -10,7 +10,7 @@ projects:
     download:
       type: git
       url: git@github.com:poetic/clutch.git
-      branch: development
+      branch: features/component-type-view-entity-reference
       working-copy: true
   ctools: { version: 3.x-dev }
   devel:
