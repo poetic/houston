@@ -9,5 +9,5 @@ projects:
     type: profile
     subdir: ~
     download:
-      url: git@github.com:poetic/houston.git
+      url: https://github.com/poetic/houston.git
       branch: master
