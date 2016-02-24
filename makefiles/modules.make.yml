@@ -12,10 +12,12 @@ projects:
       url: https://github.com/poetic/clutch.git
       branch: development
       working-copy: true
+  coffee: { version: ~ }
   ctools: { version: 3.x-dev }
   devel:
     download: { branch: 1.x-dev, revision: c0b5c5f }
   entity_reference_revisions: { version: ~ }
+  linkit: { version: ~ }
   metatag: { version: ~ }
   pathauto: { version: ~ }
   paragraphs: { version: ~ }

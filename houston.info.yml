@@ -10,6 +10,7 @@ dependencies:
   - block_content
   - breakpoint
   - ckeditor
+  - coffee
   - color
   - composer_manager
   - config
@@ -24,6 +25,7 @@ dependencies:
   - help
   - history
   - image
+  - linkit
   - menu_link_content
   - menu_ui
   - metatag

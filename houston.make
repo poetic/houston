@@ -17,6 +17,9 @@ projects[clutch][download][url] = "https://github.com/poetic/clutch.git"
 projects[clutch][download][branch] = "development"
 projects[clutch][download][working-copy] = "1"
 
+projects[coffee][subdir] = "contrib"
+projects[coffee][version] = "1.0-beta1"
+
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "3.x-dev"
 
@@ -27,6 +30,9 @@ projects[devel][download][type] = "git"
 
 projects[entity_reference_revisions][subdir] = "contrib"
 projects[entity_reference_revisions][version] = "1.0-rc4"
+
+projects[linkit][subdir] = "contrib"
+projects[linkit][version] = "4.1"
 
 projects[metatag][subdir] = "contrib"
 projects[metatag][version] = "1.0-beta4"
