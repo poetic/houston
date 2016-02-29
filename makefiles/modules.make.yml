@@ -10,13 +10,18 @@ projects:
     download:
       type: git
       url: git@github.com:poetic/clutch.git
-      branch: features/component-type-view-entity-reference
+      branch: features/refactor-find-and-replace
       working-copy: true
+  coffee: { version: ~ }
   ctools: { version: 3.x-dev }
   devel:
     download: { branch: 1.x-dev, revision: c0b5c5f }
   entity_reference_revisions: { version: ~ }
+  facets: { version: ~ }
+  linkit: { version: ~ }
   metatag: { version: ~ }
+  migrate_plus: { version: ~ }
   pathauto: { version: ~ }
   paragraphs: { version: ~ }
+  search_api: { version: ~ }
   token: { version: ~ }

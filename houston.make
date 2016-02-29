@@ -14,8 +14,11 @@ projects[composer_manager][revision] = "b5da8d1"
 projects[clutch][subdir] = "custom"
 projects[clutch][download][type] = "git"
 projects[clutch][download][url] = "git@github.com:poetic/clutch.git"
-projects[clutch][download][branch] = "features/component-type-view-entity-reference"
+projects[clutch][download][branch] = "features/refactor-find-and-replace"
 projects[clutch][download][working-copy] = "1"
+
+projects[coffee][subdir] = "contrib"
+projects[coffee][version] = "1.0-beta1"
 
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "3.x-dev"
@@ -28,14 +31,26 @@ projects[devel][download][type] = "git"
 projects[entity_reference_revisions][subdir] = "contrib"
 projects[entity_reference_revisions][version] = "1.0-rc4"
 
+projects[facets][subdir] = "contrib"
+projects[facets][version] = "1.0-alpha1"
+
+projects[linkit][subdir] = "contrib"
+projects[linkit][version] = "4.1"
+
 projects[metatag][subdir] = "contrib"
 projects[metatag][version] = "1.0-beta4"
 
+projects[migrate_plus][subdir] = "contrib"
+projects[migrate_plus][version] = "1.0-beta1"
+
 projects[pathauto][subdir] = "contrib"
-projects[pathauto][version] = "1.0-alpha1"
+projects[pathauto][version] = "1.0-alpha2"
 
 projects[paragraphs][subdir] = "contrib"
 projects[paragraphs][version] = "1.0-rc4"
+
+projects[search_api][subdir] = "contrib"
+projects[search_api][version] = "1.0-alpha12"
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.0-alpha2"
