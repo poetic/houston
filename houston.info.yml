@@ -37,6 +37,7 @@ dependencies:
   - quickedit
   - responsive_image
   - rdf
+  - s3fs
   - search
   - shortcut
   - taxonomy
