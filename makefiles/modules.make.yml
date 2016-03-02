@@ -23,5 +23,6 @@ projects:
   migrate_plus: { version: ~ }
   pathauto: { version: ~ }
   paragraphs: { version: ~ }
+  s3fs: { version: ~ }
   search_api: { version: ~ }
   token: { version: ~ }

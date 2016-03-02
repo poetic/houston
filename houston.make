@@ -49,6 +49,9 @@ projects[pathauto][version] = "1.0-alpha2"
 projects[paragraphs][subdir] = "contrib"
 projects[paragraphs][version] = "1.0-rc4"
 
+projects[s3fs][subdir] = "contrib"
+projects[s3fs][version] = "2.x-dev"
+
 projects[search_api][subdir] = "contrib"
 projects[search_api][version] = "1.0-alpha12"
 
