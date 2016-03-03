@@ -12,6 +12,7 @@ dependencies:
   - ckeditor
   - coffee
   - color
+  - composer_manager
   - config
   - contextual
   - ctools

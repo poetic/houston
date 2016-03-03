@@ -62,8 +62,3 @@ projects[search_api][version] = "1.0-alpha12"
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.0-alpha2"
 
-; Libraries
-libraries[aws][download][type] = "get"
-libraries[aws][download][url] = "https://github.com/aws/aws-sdk-php/releases/download/2.8.25/aws.zip"
-libraries[aws][type] = "library"
-
