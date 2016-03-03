@@ -1,3 +1,4 @@
 modules/contrib/*
 modules/custom/*
 themes/contrib/*
+libraries/*

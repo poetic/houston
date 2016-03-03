@@ -34,6 +34,9 @@ projects[entity_reference_revisions][version] = "1.0-rc4"
 projects[facets][subdir] = "contrib"
 projects[facets][version] = "1.0-alpha1"
 
+projects[libraries][subdir] = "contrib"
+projects[libraries][version] = "3.x-dev"
+
 projects[linkit][subdir] = "contrib"
 projects[linkit][version] = "4.1"
 
@@ -51,10 +54,16 @@ projects[paragraphs][version] = "1.0-rc4"
 
 projects[s3fs][subdir] = "contrib"
 projects[s3fs][version] = "2.x-dev"
+projects[s3fs][patch][0] = "https://www.drupal.org/files/issues/s3fs-use_drush_translation_function-2679887-4-8.0.0.patch"
 
 projects[search_api][subdir] = "contrib"
 projects[search_api][version] = "1.0-alpha12"
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.0-alpha2"
+
+; Libraries
+libraries[aws][download][type] = "get"
+libraries[aws][download][url] = "https://github.com/aws/aws-sdk-php/releases/download/2.8.25/aws.zip"
+libraries[aws][type] = "library"
 

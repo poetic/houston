@@ -1,0 +1,8 @@
+api: 2
+core: 8.x
+
+libraries:
+  aws:
+    download:
+      type: get
+      url: https://github.com/aws/aws-sdk-php/releases/download/2.8.25/aws.zip

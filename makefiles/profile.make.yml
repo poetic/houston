@@ -5,4 +5,5 @@ defaults: { projects: { subdir: contrib } }
 
 includes:
   - modules.make.yml
+  - libraries.make.yml
   - themes.make.yml

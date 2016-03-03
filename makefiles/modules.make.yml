@@ -18,11 +18,15 @@ projects:
     download: { branch: 1.x-dev, revision: c0b5c5f }
   entity_reference_revisions: { version: ~ }
   facets: { version: ~ }
+  libraries: { version: ~ }
   linkit: { version: ~ }
   metatag: { version: ~ }
   migrate_plus: { version: ~ }
   pathauto: { version: ~ }
   paragraphs: { version: ~ }
-  s3fs: { version: ~ }
+  s3fs:
+    version: ~
+    patch:
+      - https://www.drupal.org/files/issues/s3fs-use_drush_translation_function-2679887-4-8.0.0.patch
   search_api: { version: ~ }
   token: { version: ~ }
