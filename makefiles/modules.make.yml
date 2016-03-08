@@ -23,7 +23,8 @@ projects:
   metatag: { version: ~ }
   migrate_plus: { version: ~ }
   pathauto: { version: ~ }
-  paragraphs: { version: ~ }
+  paragraphs:
+    download: { branch: 1.x-dev, revision: 916b9bb }
   s3fs:
     version: ~
     patch:

@@ -50,7 +50,9 @@ projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.0-alpha2"
 
 projects[paragraphs][subdir] = "contrib"
-projects[paragraphs][version] = "1.0-rc4"
+projects[paragraphs][download][branch] = "1.x-dev"
+projects[paragraphs][download][revision] = "916b9bb"
+projects[paragraphs][download][type] = "git"
 
 projects[s3fs][subdir] = "contrib"
 projects[s3fs][version] = "2.x-dev"
