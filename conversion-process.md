@@ -144,4 +144,4 @@ Drupal 8 Site Conversion
 
 	**NOTE:** the difference between Node and Component is the Clutch API Form will actually create the actual content for each type while the Clutch Node API Form will only create the structure of the content type.
 
-## IMPORTANT: THE CLUTCH CLI AND THE FUNCTIONALITY OF THE CLUTCH MODULE RELY HEAVILY ON DATA ATTRIBUTE IN THE TEMPLATE. I WILL ALSO WRITE ANOTHER DOCUMENT ON HOW DESIGNERS/DEVELOPERS CAN HELP WITH THIS.
+## IMPORTANT: THE CLUTCH CLI AND THE FUNCTIONALITY OF THE CLUTCH MODULE RELY HEAVILY ON DATA ATTRIBUTE IN THE TEMPLATE. I WILL ALSO WRITE ANOTHER DOCUMENT ON HOW DESIGNERS/DEVELOPERS CAN HELP WITH THIS.(Please read https://github.com/poetic/houston/blob/development/template-instruction.md)
