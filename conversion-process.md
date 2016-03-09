@@ -91,6 +91,15 @@ Drupal 8 Site Conversion
 	- The final step is to verify the platform. Go to valkyrie.local. Add platform -> put in the name of your platform and save.
 
 	NOTE: REMEMBER TO RUN THE COMPOSER COMMAND.
+	
+	To make sure you can use Composer Manager to download third party libraries, run this from your platform root:
+
+			php profiles/houston/modules/contrib/composer_manager/scripts/init.php
+	then run this to install all libraries:
+
+			composer drupal-update
+
+If you have trouble with houston/vendor/jcalderonzumba/gastonjs, remove gastonjs then re-run composer drupal-update
 
 4. Get Clutch CLI (https://github.com/cubeddu/clutch)
 	- This Clutch CLI will help you generate a theme for Drupal 8 from webflow zip coming from the designer. I also copy down the instruction:
