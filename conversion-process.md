@@ -90,7 +90,7 @@ Drupal 8 Site Conversion
 
 	- The final step is to verify the platform. Go to valkyrie.local. Add platform -> put in the name of your platform and save.
 
-	NOTE: REMEMBER TO RUN THE COMPOSER COMMAND.
+	NOTE: REMEMBER TO RUN THE COMPOSER COMMAND (see below).
 	
 	To make sure you can use Composer Manager to download third party libraries, run this from your platform root:
 
