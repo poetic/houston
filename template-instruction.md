@@ -63,13 +63,13 @@ These are the most common Field type that Drupal Developers use. You can add mor
 
 | Field Type                                          | Form Display                | Display                      |
 | ----------------------------------------------------|-----------------------------|------------------------------|
-|	string_long (Text - formatted, long, with summary)	|  text_textarea_with_summary |  text_default                |
+|	text_with_summary (Text - formatted, long, with summary)	|  text_textarea_with_summary |  text_default                |
 |	boolean	                                            |  boolean_checkbox					  |  boolean                     |
 |	datetime (Date) 	                                  |  datetime_default					  |  datetime_default            |
 |	decimal (Number - decimal)						              |  number										  |  number_decimal	             |
 |	email																	              |  email_default							|  basic_string		             |
 |	integer (Number - integer)						              |  number										  |  number_integer	             |
-|	link																                |  link_default							  |  Link                        |
+|	link																                |  link_default							  |  link                        |
 |	list_integer (List - integer)					              |  options_select						  |  list_defaul                 |
 |	list_string (List - text)							              |  options_select						  |  list_defaul                 |
 |	string_long (Text - plain, long)			              |  string_textarea					  |  basic_string                |
