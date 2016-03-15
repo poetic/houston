@@ -143,7 +143,7 @@ If you have trouble with houston/vendor/jcalderonzumba/gastonjs, remove gastonjs
 	- On the next screen, you should see a list of new components that you can import. Select all and run Create
 
 7. Create page and associate the component (remember to read this first https://github.com/poetic/clutch/tree/features/readme)
-	- Make sure you update the Url Pattern for Custom Page
+	- Make sure you update the Url Pattern for Custom Page (Configuration -> URL aliases -> Patterns Tab -> Edit and then Save (don't make any changes, just hit edit and then save)
 	- Structure => Page List => Add new page
 	- Select all the components you want to render on the page then save
 
